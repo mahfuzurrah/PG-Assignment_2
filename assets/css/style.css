@@ -143,6 +143,7 @@ button {
   font-size: var(--normal-font-size);
   font-weight: 500;
   text-align: center;
+  justify-content: center;
 }
 
 .btn:hover {
@@ -320,11 +321,11 @@ button {
 .banner .container .banner_area .text h1 {
   font-weight: 800;
   margin-bottom: 10px;
+  font-size: 5vw;
 }
 
 .banner .input_area {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 20px;
   padding: 20px;
@@ -573,7 +574,7 @@ video {
 
 /* ========= Video Section ========== */
 
-.input_area {
+.newsletter .input_area {
   padding: 40px;
   border-radius: 16px;
   border: 1px solid #ff5400;
@@ -708,7 +709,7 @@ video {
 }
 
 .footer hr {
-  border: 1px solid rgba(19, 19, 24, 0.10);;
+  border: 1px solid rgba(19, 19, 24, 0.1);
   width: 100%;
 }
 
@@ -729,6 +730,35 @@ video {
   .destination .image-row .img_box {
     margin-top: 20px;
   }
+
+  .grid_2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .img_box img {
+    width: 100%;
+  }
+
+  .newsletter .content_area {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .newsletter .input_area {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .newsletter .content_area .img_box {
+    width: 100% !important;
+    background-size: cover;
+  }
+  .card_row{
+    flex-wrap: wrap;
+  }
+
+  .card_row .card .card_img{
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -741,6 +771,20 @@ video {
   }
 
   .input_area input {
+    width: 100%;
+  }
+
+  .custom-select {
+    width: 100%;
+  }
+
+  .custom-select .select-box {
+    width: 100%;
+  }
+  .custom-select .btn {
+    width: 100%;
+  }
+  .banner_content .btn {
     width: 100%;
   }
 }
