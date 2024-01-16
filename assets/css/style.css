@@ -239,7 +239,7 @@ button {
   position: relative;
 }
 
-.logo h4{
+.logo h4 {
   color: var(--primary-color);
 }
 
@@ -549,6 +549,7 @@ button {
 
 .deals_discounts .card .deals_info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 30px;
 }
@@ -807,5 +808,16 @@ video {
 
   .banner_content .btn {
     width: 100%;
+  }
+
+  .deals_discounts .card {
+    padding: 20px;
+  }
+  .banner .container .banner_area {
+    height: 100%;
+    padding: 20px;
+  }
+  .banner .container .banner_area h1 {
+    font-size: 36px !important;
   }
 }
