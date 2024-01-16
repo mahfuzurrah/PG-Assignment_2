@@ -306,11 +306,9 @@ button {
   width: 100%;
   height: 500px;
   border-radius: 16px;
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgba(19, 19, 24, 0.8) 0%,
-      rgba(19, 19, 24, 0) 100%
-    ),
+      rgba(19, 19, 24, 0) 100%),
     url("../img/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -402,77 +400,63 @@ button {
 }
 
 .destination .img_1 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(19, 19, 24, 0.2) 0%,
-      rgba(19, 19, 24, 0.2) 100%
-    ),
+      rgba(19, 19, 24, 0.2) 100%),
     url("../img/Rectangle\ 5.png");
   flex: 1;
   border-radius: 12px;
 }
 
 .destination .img_2 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(19, 19, 24, 0.2) 0%,
-      rgba(19, 19, 24, 0.2) 100%
-    ),
+      rgba(19, 19, 24, 0.2) 100%),
     url("../img/2.png");
   flex: 1;
   border-radius: 12px;
 }
 
 .destination .img_3 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(19, 19, 24, 0.2) 0%,
-      rgba(19, 19, 24, 0.2) 100%
-    ),
+      rgba(19, 19, 24, 0.2) 100%),
     url("../img/Rectangle\ 6.png");
   flex: 1;
   border-radius: 12px;
 }
 
 .destination .img_4 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(19, 19, 24, 0.2) 0%,
-      rgba(19, 19, 24, 0.2) 100%
-    ),
+      rgba(19, 19, 24, 0.2) 100%),
     url("../img/Rectangle\ 7.png");
   flex: 2;
   border-radius: 12px;
 }
 
 .destination .img_5 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(19, 19, 24, 0.2) 0%,
-      rgba(19, 19, 24, 0.2) 100%
-    ),
+      rgba(19, 19, 24, 0.2) 100%),
     url("../img/Rectangle 9.png");
   flex: 1;
   border-radius: 12px;
 }
 
 .destination .img_6 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(19, 19, 24, 0.2) 0%,
-      rgba(19, 19, 24, 0.2) 100%
-    ),
+      rgba(19, 19, 24, 0.2) 100%),
     url("../img/Rectangle\ 11.png");
   flex: 1;
   border-radius: 12px;
 }
 
 .destination .img_7 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(19, 19, 24, 0.2) 0%,
-      rgba(19, 19, 24, 0.2) 100%
-    ),
+      rgba(19, 19, 24, 0.2) 100%),
     url("../img/Rectangle\ 10.png");
   flex: 1;
   border-radius: 12px;
@@ -813,10 +797,12 @@ video {
   .deals_discounts .card {
     padding: 20px;
   }
+
   .banner .container .banner_area {
     height: 100%;
     padding: 20px;
   }
+
   .banner .container .banner_area h1 {
     font-size: 36px !important;
   }
