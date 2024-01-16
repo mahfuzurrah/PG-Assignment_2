@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pigeon Travel Agency</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <div class="nav">
+          <a href="" class="logo"
+            ><img src="" alt="" />
+            <h4>Pigeon Travel</h4>
+          </a>
+          <ul class="nav_menu">
+            <li class="nav_list">
+              <a href="" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_list"><a href="" class="nav_link">Packages</a></li>
+            <li class="nav_list">
+              <a href="" class="nav_link">Testimonial</a>
+            </li>
+            <li class="nav_list"><a href="" class="nav_link">Blog</a></li>
+            <li class="nav_list"><a href="" class="nav_link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <section class="banner">
+      <div class="container">
+        <div class="banner_area">
+          <div class="banner_content">
+            <div class="text">
+              <h1>Explore the World</h1>
+              <p>
+                Embark on a journey of a lifetime with our curated travel
+                experiences. Explore breathtaking destinations, savor unique
+                cultures, and create memories that last a lifetime
+              </p>
+            </div>
+            <div class="input_area">
+              <input type="text" name="" id="" placeholder="Where go" />
+              <!-- First Custom Select -->
+              <div class="custom-select" id="customSelect1">
+                <div class="select-box" onclick="toggleOptions(1)">
+                  <span class="selected-option" id="selectedOption1"
+                    >Select Type</span
+                  >
+                  <span class="iconify" data-icon="icon-park:down"></span>
+                </div>
+                <div class="select-options closed" id="selectOptions1">
+                  <div
+                    class="select-option"
+                    onclick="selectOption(1, 'Option 1')"
+                  >
+                    Option 1
+                  </div>
+                  <div
+                    class="select-option"
+                    onclick="selectOption(1, 'Option 2')"
+                  >
+                    Option 2
+                  </div>
+                  <div
+                    class="select-option"
+                    onclick="selectOption(1, 'Option 3')"
+                  >
+                    Option 3
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Custom Select -->
+              <div class="custom-select" id="customSelect2">
+                <div class="select-box" onclick="toggleOptions(2)">
+                  <span class="selected-option" id="selectedOption2"
+                    >Select Type</span
+                  >
+                  <span class="iconify" data-icon="icon-park:down"></span>
+                </div>
+                <div class="select-options closed" id="selectOptions2">
+                  <div
+                    class="select-option"
+                    onclick="selectOption(2, 'Option 1')"
+                  >
+                    Option 1
+                  </div>
+                  <div
+                    class="select-option"
+                    onclick="selectOption(2, 'Option 2')"
+                  >
+                    Option 2
+                  </div>
+                  <div
+                    class="select-option"
+                    onclick="selectOption(2, 'Option 3')"
+                  >
+                    Option 3
+                  </div>
+                </div>
+              </div>
+              <button class="btn">
+                <iconify-icon icon="lucide:search" class="icons"></iconify-icon
+                >Find Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about_tour">
+      <div class="container">
+        <div class="grid_2">
+          <div class="text">
+            <h2>Our Popular Tours</h2>
+            <p>
+              Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+              odio sit massa. Sodales dictumst nec nibh pellentesque.
+            </p>
+            <ul>
+              <li>
+                Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+                nullam odio neque diam. Sociis erat at .
+              </li>
+              <li>
+                Adipiscing ornare pellentesque mauris volutpat tortor vitae
+                platea porta lacus. Lectus suspendisse nullam.
+              </li>
+              <li>
+                Accumsan eget et turpis praesent lorem egestas enim elit
+                bibendum. Risus at in.
+              </li>
+            </ul>
+            <p>
+              Amet consectetur. Vulputate commodo felis molestie risus ornare
+              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+              Habitant adipiscing risus natoque aliquet. Id bibendum nunc
+              senectus semper tincidunt.
+            </p>
+            <button class="btn">Read More</button>
+          </div>
+          <div class="img_box">
+            <img src="assets/img/Rectangle 4.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="destination">
+      <div class="container">
+        <div class="section_title">
+          <h2>Choose Your Destination</h2>
+          <p>
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+            odio sit massa. Sodales dictumst nec nibh pellentesque.
+          </p>
+        </div>
+        <div class="image-row">
+          <div class="img_box img_1">
+            <h3>Maldives</h3>
+          </div>
+          <div class="img_box img_2">
+            <h3>Indonesia</h3>
+          </div>
+        </div>
+        <div class="image-row">
+          <div class="img_box img_3">
+            <h3>Srilanka</h3>
+          </div>
+          <div class="img_box img_4">
+            <h3>North America</h3>
+          </div>
+          <div class="img_box img_5">
+            <h3>Kashmir</h3>
+          </div>
+        </div>
+        <div class="image-row">
+          <div class="img_box img_6">
+            <h3>Bangladesh</h3>
+          </div>
+          <div class="img_box img_7">
+            <h3>Bandarban</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="choose_us">
+      <div class="container">
+        <div class="section_title">
+          <h2>Why Choose Us</h2>
+          <p>
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+            odio sit massa. Sodales dictumst nec nibh pellentesque.
+          </p>
+        </div>
+        <div class="card_area">
+          <div class="card">
+            <img src="assets/img/hotel 1.svg" alt="" />
+            <h4>Handpicked Hotels</h4>
+            <p>
+              Amet consectetur. Vulputate commodo felis molestie risus ornare
+              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+              Habitant adipiscing risus natoque aliquet.
+            </p>
+          </div>
+          <div class="card card_2">
+            <img src="assets/img/map 1.svg" alt="" />
+            <h4>World Class Service</h4>
+            <p>
+              Amet consectetur. Vulputate commodo felis molestie risus ornare
+              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+              Habitant adipiscing risus natoque aliquet.
+            </p>
+          </div>
+          <div class="card card_3">
+            <img src="assets/img/price-tag 1.svg" alt="" />
+            <h4>Best Price Guarantee</h4>
+            <p>
+              Amet consectetur. Vulputate commodo felis molestie risus ornare
+              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+              Habitant adipiscing risus natoque aliquet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="deals_discounts">
+      <div class="container">
+        <div class="section_title">
+          <h2>Deals & Discounts</h2>
+          <p>
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+            odio sit massa. Sodales dictumst nec nibh pellentesque.
+          </p>
+        </div>
+        <div class="big_img_area">
+          <!-- Card 1 -->
+          <div class="card card_img_1">
+            <div class="card_content">
+              <div class="deals_info">
+                <p class="info">
+                  <iconify-icon icon="mdi:clock"></iconify-icon> 7 Day / 6 Night
+                </p>
+                <p class="info">
+                  <iconify-icon icon="fa-solid:users"></iconify-icon> Max : 10
+                </p>
+                <p class="info">
+                  <iconify-icon icon="bxs:map"></iconify-icon> Malaysia
+                </p>
+              </div>
+              <h3>Tour To Satorini</h3>
+              <p>
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing.
+              </p>
+              <h4 class="price">Price: $1300-$1500</h4>
+              <button class="btn">Book Now</button>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="card card_img_2 left_content">
+            <div class="card_content">
+              <div class="deals_info">
+                <p class="info">
+                  <iconify-icon icon="mdi:clock"></iconify-icon> 7 Day / 6 Night
+                </p>
+                <p class="info">
+                  <iconify-icon icon="fa-solid:users"></iconify-icon> Max : 10
+                </p>
+                <p class="info">
+                  <iconify-icon icon="bxs:map"></iconify-icon> Malaysia
+                </p>
+              </div>
+              <h3>Tour To Satorini</h3>
+              <p>
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing.
+              </p>
+              <h4 class="price">Price: $1300-$1500</h4>
+              <button class="btn">Book Now</button>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="card card_img_1">
+            <div class="card_content">
+              <div class="deals_info">
+                <p class="info">
+                  <iconify-icon icon="mdi:clock"></iconify-icon> 7 Day / 6 Night
+                </p>
+                <p class="info">
+                  <iconify-icon icon="fa-solid:users"></iconify-icon> Max : 10
+                </p>
+                <p class="info">
+                  <iconify-icon icon="bxs:map"></iconify-icon> Malaysia
+                </p>
+              </div>
+              <h3>Tour To Satorini</h3>
+              <p>
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing.
+              </p>
+              <h4 class="price">Price: $1300-$1500</h4>
+              <button class="btn">Book Now</button>
+            </div>
+          </div>
+        </div>
+        <button class="btn center_btn">See All Packages</button>
+      </div>
+    </section>
+
+    <section class="about_tour">
+      <div class="container">
+        <div class="grid_2">
+          <div class="text">
+            <h2>A Simple Perfect Place To Get Lost</h2>
+            <p>
+              Amet consectetur. Vulputate commodo felis molestie risus ornare
+              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            </p>
+            <ul>
+              <li>
+                Adipiscing ornare pellentesque mauris volutpat tortor vitae
+                platea porta lacus. Lectus suspendisse nullam.
+              </li>
+              <li>
+                Accumsan eget et turpis praesent lorem egestas enim elit
+                bibendum. Risus at in.
+              </li>
+            </ul>
+            <button class="btn">See More</button>
+          </div>
+          <div class="video-container">
+            <video controls id="myVideo">
+              <source src="assets/video/178732 (1080p).mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container">
+        <div class="content_area">
+          <div class="input_area">
+            <h3>Newsletter</h3>
+            <p>Get your daily dose of travel news & tips. Sign up today!</p>
+            <hr />
+            <form action="" class="newsletter_form">
+              <input type="name" name="name" placeholder="Enter your name" />
+              <input type="email" name="email" placeholder="Enter your email" />
+              <button class="btn">Subscribe</button>
+            </form>
+          </div>
+          <div class="img_box">
+            <div class="discount_card">
+              <p>pigeon.com</p>
+              <h3>Save up to 70%</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- JavaScript -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <script src="assets/js/style.js"></script>
+  </body>
+</html>
