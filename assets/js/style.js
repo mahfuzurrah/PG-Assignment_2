@@ -1,5 +1,8 @@
-/*======= Video ========*/
-
+/*======= Navbar ========*/
+function toggleNavbar() {
+  var navbarLinks = document.getElementById('nav_menu');
+  navbarLinks.classList.toggle('show');
+}
 
 
 /*======= Selector ========*/

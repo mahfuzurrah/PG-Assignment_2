@@ -130,6 +130,11 @@ section {
 
 button {
   border: none;
+  background: none;
+}
+
+.icons {
+  font-size: 24px;
 }
 
 .btn {
@@ -234,10 +239,8 @@ button {
   position: relative;
 }
 
-.navbar .logo {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+.logo h4{
+  color: var(--primary-color);
 }
 
 .navbar .nav,
@@ -259,6 +262,10 @@ button {
   color: var(--primary-color);
 }
 
+.toggle_menu {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
     background: var(--white-color);
@@ -272,7 +279,7 @@ button {
 
   .navbar .nav .nav_menu {
     position: absolute;
-    top: 75px;
+    top: -10000%;
     flex-direction: column;
     align-items: start;
     width: 100%;
@@ -280,7 +287,16 @@ button {
     box-shadow: 5px 5px 35px #00000018;
     padding: 50px;
     border-radius: 24px;
-    display: none;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .toggle_menu {
+    display: block;
+  }
+
+  .navbar .nav .nav_menu.show {
+    top: 80px !important;
+    transition: all 0.5s ease-in-out;
   }
 }
 
@@ -698,6 +714,7 @@ video {
 
 .footer .container a.logo {
   margin-bottom: 20px;
+  color: var(--primary-color);
 }
 
 .social_media {
@@ -743,6 +760,7 @@ video {
     flex-direction: column;
     max-width: 100%;
   }
+
   .newsletter .input_area {
     max-width: 100%;
     width: 100%;
@@ -752,11 +770,12 @@ video {
     width: 100% !important;
     background-size: cover;
   }
-  .card_row{
+
+  .card_row {
     flex-wrap: wrap;
   }
 
-  .card_row .card .card_img{
+  .card_row .card .card_img {
     height: 250px;
   }
 }
@@ -781,9 +800,11 @@ video {
   .custom-select .select-box {
     width: 100%;
   }
+
   .custom-select .btn {
     width: 100%;
   }
+
   .banner_content .btn {
     width: 100%;
   }
